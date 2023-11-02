@@ -1,9 +1,10 @@
 from textSummarizer.config.configuration import ConfigurationManager
 from textSummarizer.components.model_trainer import ModelTrainer
 from textSummarizer.logging import logger
+from textSummarizer.pipeline.Pipeline import Pipeline
 
 
-class ModelTrainerTrainingPipeline:
+class ModelTrainerTrainingPipeline(Pipeline):
     def __init__(self):
         pass
 

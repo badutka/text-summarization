@@ -1,6 +1,7 @@
 transformers
 transformers[sentencepiece]
 transformers[torch]
+evaluate
 datasets
 sacrebleu
 rouge_score
